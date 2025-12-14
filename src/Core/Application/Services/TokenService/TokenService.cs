@@ -1,9 +1,6 @@
-﻿using Application.GlobalExceptionHandler.CustomExceptions;
-using Application.Services.Repositories;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Models.Auth;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
